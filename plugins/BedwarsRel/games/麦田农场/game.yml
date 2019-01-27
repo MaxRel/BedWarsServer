@@ -1,0 +1,281 @@
+name: "\u9ea6\u7530\u519c\u573a"
+world: bw
+loc1:
+  world: bw
+  x: 524.2426866516493
+  y: 25.471797100268166
+  z: 1062.9433767352948
+  pitch: 4.466118335723877
+  yaw: 138.72686767578125
+loc2:
+  world: bw
+  x: 254.98923570583594
+  y: 235.06846286914416
+  z: 781.622313589213
+  pitch: 24.115633010864258
+  yaw: 303.57843017578125
+lobby:
+  world: world
+  x: -0.48358590835054494
+  y: 65.0
+  z: -18.5662802770376
+  pitch: -10.649991035461426
+  yaw: 91.65007019042969
+minplayers: 4
+record: 253
+record-holders:
+- XOWA
+regionname: bw
+time: 1000
+targetmaterial: BED_BLOCK
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: bw
+    x: 390.35605449870064
+    y: 136.0
+    z: 919.6999999880791
+    pitch: 20.099992752075195
+    yaw: 358.296630859375
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: bw
+    x: 390.35605449870064
+    y: 136.0
+    z: 919.6999999880791
+    pitch: 87.0
+    yaw: 40.59661865234375
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: bw
+    x: 375.60707191878004
+    y: 132.0
+    z: 919.4476383029819
+    pitch: 90.0
+    yaw: 359.646240234375
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: bw
+    x: 390.3067051451653
+    y: 132.0
+    z: 934.5464795929039
+    pitch: 90.0
+    yaw: 353.49560546875
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: bw
+    x: 405.30000001192093
+    y: 132.0
+    z: 919.5338846476535
+    pitch: 90.0
+    yaw: 279.54571533203125
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: bw
+    x: 390.4962693326293
+    y: 132.0
+    z: 904.3478904676721
+    pitch: 90.0
+    yaw: 142.89593505859375
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: bw
+    x: 390.4962693326293
+    y: 132.0
+    z: 904.3478904676721
+    pitch: 89.8499984741211
+    yaw: 142.89593505859375
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: bw
+    x: 390.4962693326293
+    y: 132.0
+    z: 904.3478904676721
+    pitch: 90.0
+    yaw: 163.74609375
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: bw
+    x: 396.5081867420856
+    y: 131.0
+    z: 845.5340468872035
+    pitch: 90.0
+    yaw: 187.74627685546875
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: bw
+    x: 396.480891215558
+    y: 133.0
+    z: 836.4353176452393
+    pitch: 78.45001220703125
+    yaw: 192.84613037109375
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: bw
+    x: 464.45910065931713
+    y: 131.0
+    z: 925.3345952576061
+    pitch: 89.24999237060547
+    yaw: 297.99627685546875
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: bw
+    x: 473.6221460920409
+    y: 133.0
+    z: 925.5005751647554
+    pitch: 90.0
+    yaw: 263.3466796875
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: bw
+    x: 384.44719364469506
+    y: 131.0
+    z: 993.3796733692052
+    pitch: 90.0
+    yaw: 342.2459716796875
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: bw
+    x: 384.3730596600601
+    y: 133.0
+    z: 1002.3147516780436
+    pitch: 90.0
+    yaw: 332.94610595703125
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: bw
+    x: 316.5165152264456
+    y: 131.0
+    z: 913.5033231813253
+    pitch: 90.0
+    yaw: 213.096923828125
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: bw
+    x: 307.33686466343175
+    y: 133.0
+    z: 913.4005766352583
+    pitch: 90.0
+    yaw: 138.0966796875
+teams:
+  "\u8d77\u5e8a\u7ea2\u961f":
+    ==: Team
+    bedfeed:
+      world: bw
+      x: 390.0
+      y: 131.0
+      z: 1011.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: bw
+      x: 390.499612141642
+      y: 131.0
+      z: 1003.5120621506563
+      pitch: -2.1338255405426025
+      yaw: 180.57611083984375
+    color: RED
+    name: "\u8d77\u5e8a\u7ea2\u961f"
+    maxplayers: 8
+    bedhead:
+      world: bw
+      x: 390.0
+      y: 131.0
+      z: 1012.0
+      pitch: 0.0
+      yaw: 0.0
+  "\u8d77\u5e8a\u7eff\u961f":
+    ==: Team
+    bedfeed:
+      world: bw
+      x: 482.0
+      y: 131.0
+      z: 919.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: bw
+      x: 474.57163450708816
+      y: 131.0
+      z: 919.4312012272549
+      pitch: -3.1838576793670654
+      yaw: 90.726318359375
+    color: GREEN
+    name: "\u8d77\u5e8a\u7eff\u961f"
+    maxplayers: 8
+    bedhead:
+      world: bw
+      x: 483.0
+      y: 131.0
+      z: 919.0
+      pitch: 0.0
+      yaw: 0.0
+  "\u8d77\u5e8a\u84dd\u961f":
+    ==: Team
+    bedfeed:
+      world: bw
+      x: 390.0
+      y: 131.0
+      z: 827.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: bw
+      x: 390.4603342995291
+      y: 131.0
+      z: 835.5623976013306
+      pitch: -5.550017356872559
+      yaw: -359.3023986816406
+    color: BLUE
+    name: "\u8d77\u5e8a\u84dd\u961f"
+    maxplayers: 8
+    bedhead:
+      world: bw
+      x: 390.0
+      y: 131.0
+      z: 826.0
+      pitch: 0.0
+      yaw: 0.0
+  "\u8d77\u5e8a\u9ec4\u961f":
+    ==: Team
+    bedfeed:
+      world: bw
+      x: 298.0
+      y: 131.0
+      z: 919.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: bw
+      x: 306.4952359202984
+      y: 131.0
+      z: 919.4707341819602
+      pitch: -3.9000086784362793
+      yaw: 270.3975830078125
+    color: YELLOW
+    name: "\u8d77\u5e8a\u9ec4\u961f"
+    maxplayers: 8
+    bedhead:
+      world: bw
+      x: 297.0
+      y: 131.0
+      z: 919.0
+      pitch: 0.0
+      yaw: 0.0

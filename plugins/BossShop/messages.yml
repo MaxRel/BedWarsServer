@@ -1,0 +1,169 @@
+version: '1.1'
+CFG:
+  CannotCreatMailItem: '&c无法创建邮件物品'
+  UnableFoundSaleOwner: '&c无法找到寄售商品的所有者'
+  UnknowOutDateSaleItemType: '&c未知的过期寄售物品类型'
+  UnknowSalePriceType: '&c未知的寄售价格类型,无法给寄售物品所有者所得'
+  UnsupportMailItemType: '&c不支持的邮件物品类型'
+  UnsupportSaleItemParam: '&c不支持的寄售物品变量设置'
+Cmd:
+  AlreadyReloadShop: 已经重载%shop%商店
+  ClearedModelStatus: '&c清理了%numb%个模块的状态'
+  ClearedNoUsefulNBT: 共清理了%numb%个未被引用且自动生成的NBT库存
+  ConfigReloacded: 已经重载配置
+  ConsoleNotAllow: '&c控制台不能执行该命令'
+  ErrorHappedWhenHandlerCmd: '&c插件在处理命令的时候发生了异常'
+  ForSaleSuccessAndTisID: '&c寄售物品成功,寄售物品的编号是: '
+  GetHelp: '&c获取帮助'
+  ItemMayDonotHaveNBT: '&c物品可能没有nbt信息'
+  ItemNameReloaded: 已经重载原版物品名字翻译
+  LangReloacded: '&2已经重载语言文件'
+  MustAboveZero: '&c必须大于零'
+  MustBeNumb: '&c必须为数字'
+  NBTHasExistInStockAndItsID: 'NBT已经存在在NBT库存中,它的ID是: '
+  NBTHaveAddAndItsID: 'NBT已经添加到NBT库存,它的ID是: '
+  NoPermission: '&c你没有权限'
+  NoPlayerFound: '&c未发现该玩家'
+  NoShopFound: '&c未发现该商店'
+  OpenShopForPlayer: '&2为玩家%player%开启商店%shop%'
+  PluginReloaded: 已经重载插件
+  SaleItemShouldNotSameWithPrice: '&c寄售物品类型和价格类型不能相同'
+  SaleReachPreOneLimit: '&c寄售商品已达个人寄售上线'
+  SaleShopIsFull: '&c寄售商店寄售数量已经达到上限'
+  ServerDisablePoints: '&c服务器不支持点券或未启用点券'
+  UnknowCommand: '&c未知指令,输入/BossShop help 获取帮助'
+  UnknowPriceType: '&c未知的价格类型'
+  UnknowSaleItemType: '&c未知的寄售物品类型'
+  UnsupportPriceType: '&c不支持的价格类型'
+  UnsupportSaleItemType: '&c不支持的寄售物品类型'
+  YouCannotSaleThisItem: '&c你不能寄售这个物品'
+  YouHaveNotOutDateSaleItem: '&c你没有过期的寄售物品'
+  YouSaleHasSellOne: 你的寄售物品售出一份
+  YouShouldTakeItemInHand: '&c你的手上必须拿着物品'
+  unknowChildCommand: '&c未知子命令指令'
+Console:
+  ErrorCreateSaleFile: '&c创建寄售商店文件是发生了错误'
+  ShopFileNotExist: '&c商店配置文件不存在'
+  StartReloadShop: 开始重载商店
+  MissingNBTNode: '&cNBT库丢失NBT节点'
+Economy:
+  NoAccount: '&c你还没有开户'
+Enchantment:
+  Invalid: '&c这个物品不能附这个魔'
+Help:
+  ClearModelStatus: '&2清理插件中一些模块的状态'
+  ClosePlayerShop: '&2关闭玩家打开的BossShop商店'
+  HelpOpen: '&2获取有关/BossShop open的帮助指令'
+  MailCheck: '&2检查你的邮件列表'
+  MailHelp: '&2获取邮件命令的帮助'
+  MailRevice: '&2接受邮件中的物品'
+  MailSend: '&2发送物品到玩家的邮箱'
+  NBTAdd: '&2添加当前手上物品的NBT信息到NBT库存'
+  NBTClear: '&2清理由插件自动生成且引用次数为0的NBT库存'
+  NBTHelp: '&2获取有关/BossShop nbt 的帮助指令'
+  OpenOtherShop: '&2为别人打开商店'
+  OpenShop: '&2为自己打开商店'
+  Reload: '&2重载BossShop配置'
+  ReloadConfig: '&2重载插件主配置'
+  ReloadHelp: '&2获取有关/BossShop reload的帮助指令'
+  ReloadItemName: '&2重载物品名字翻译'
+  ReloadLang: '&2重载语言文件,部分语言可能无法更新'
+  ReloadShop: '&2重载指定商店配置,商店名需要文件名'
+  SaleHelp: '&2获取有关/BossShop sale 的帮助命令'
+  StartSaleWithChat: '&2使用聊天栏开始图形化寄售'
+  StopSaleWithChat: '&2退出聊天栏寄售'
+  SaleForsale: '&2寄售物品'
+  SaleOther: '&2其他参数均为整数'
+  SalePriceType: '&2支持的价格类型 money,points'
+  SaleSellType: '&2支持的售卖类型 item,money,points'
+  Unsale: '&2下架指定编号的寄售物品'
+Lore:
+  AlreadySoldOut: '&c商品已经售罄'
+  BuyIsNotTime: §c商品未到购买时间,将于%time%开放购买
+  EveryoneLimit: §2每人限购%numb%件,你还可以购买%left%件
+  GoodsOutOfDate: '&c商品已经过了购买日期'
+  GoodsStockLeft: '&2库存剩余%numb%件!'
+  NowCanBuyGoods: '&2现在可以购买该商品'
+  WillCloseInTime: '&c将于%time%结束开放购买'
+Mail:
+  FromOutDateSale: 来自过期寄售
+  FromPlayer: 来自玩家
+  FromUnknow: 来自未知
+  MailHasSend: 邮件已经发送
+  MailMaxSaveNumb: ====邮件最大保存数量[%numb%]====
+  NoPermitToCreateSignShop: 没有权限创建牌子商店
+  NoPermitToOpenSignShop: 没有权限打开牌子商店
+  PlayerMailIsFull: '&c玩家[%player%]的邮箱已经满了'
+  YouCannotSendMailToYouSelf: '&c你不能给自己发邮件'
+  YouHaveNoMail: 你没有任何邮件
+  YouHaveMail: 你有%numb%封邮件
+  YouMailIsFull: '&c你的邮箱已经满了'
+  YouNeed%%MoneyToSendMail: '&c你需要%numb%的金币来发送邮件'
+  YouReciveMail: 你收到了%where%的邮件,输入/BS mail check查看
+Main:
+  AlreadyBought: '&c这东西你已经买过了'
+  AlreadyClosePlayerShop: '&2已经关闭玩家商店'
+  AlreadySoldOut: '&c商品已经售罄'
+  CannotBuyYourselfGoods: '&c你不能购买自己的寄售物品'
+  CloseShop: '&6下次再来??'
+  ErrorHappend: '&c商店发生了一点小错误,请通知管理员'
+  FromHandUnsale: 来自手动下架
+  GoodsNotArriveTime: '&c商品未到购买时间'
+  GoodsOutOfDate: '&c商品已经过了购买时间'
+  ItemCannotPileMoreThan: '&c此物品的堆叠数量不能超过'
+  NoPermitToBuyThisItem: '&c你没有权限购买该物品'
+  NoPlayerFound: '&c未找到该玩家'
+  NoSaleItemFound: '&c未找到该寄售物品'
+  OpenShop: '&6开启小店'
+  OutOfPersonalLimit: '&c已经达到个人购买物品数量上限'
+  PlayerNotOpenBSShop: '&c玩家没有打开BossShop商店'
+  PlayerOffline: '&c玩家未在线'
+  PlayerSaleItem: '&2玩家%player_name%寄售了%item%'
+  SuccessUnsaleItem: 成功下架寄售物品
+  YouCannotUnsaleOther: '&c你不能下架别人的寄售的物品'
+  YouClickTooQuick: '&c你点击的太快了'
+  YouCannotSaleAnyThing: '&c你不能寄售任何东西'
+  YouCannotSaleThisType: '&c你不能寄售%type%'
+  YouNeed%%MoneyToUnsale: '&c你需要%numb%的金币来下架物品'
+  YouTodayCannotUnsaleMore: '&c你今天已经不能再下架更多物品了'
+  ShopNotExisting: '&c你今天'
+NotEnough:
+  Exp: '&c你的经验太少了'
+  Item: '&c兑换需要的物品不足'
+  Money: '&c你钱不够了'
+  Points: '&c你点券不足'
+Word:
+  All: 所有
+  Count: 个
+  ForSale: 寄售
+  GoTo: 前往
+  Input: 输入
+  Item: 物品
+  Money: 金币
+  PartNumb: 份数
+  PlayerName: 玩家名
+  Points: 点券
+  Price: 价格
+  PriceType: 价格类型
+  Revive: 接收
+  SaleID: 物品编号
+  SaleShop: 寄售商店
+  SellType: 寄售类型
+  ShopName: 商店名称
+  SigleNumb: 单次数量
+  View: 查看
+  YouBought: 你购买了
+Sale:
+  ChatSaleStart: 你已经进入寄售物品状态,输入/BS sale stop 来退出
+  ChatSaleRepartStart: '&c你已经开始寄售了,请勿重复开始'
+  ChatSaleExit: 你已经退出聊天栏寄售
+  ChatSaleFinish: 你已经设置所有寄售参数
+  NowSaleParameter: 当前寄售参数(§6可以重复使用)
+  NowSaleParameterColor: '&a'
+  ClickSaleButtonFor: 点击寄售按钮来进行
+  YouSetSaleParamTo: '&a你设置了%param%为%value%'
+  IntroduceSellType: '点击选择你要寄售的商品类型: '
+  IntroduceSingleNumb: '请输入你要寄售物品每份的数量: '
+  IntroducePartNumb: '请输入你要寄售物品的份数: '
+  IntroducePriceType: '点击选择购买商品的支付方式: '
+  IntroducePrice: '请输入每份商品的价格: '

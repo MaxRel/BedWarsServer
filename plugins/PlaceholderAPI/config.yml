@@ -1,0 +1,72 @@
+# PlaceholderAPI version 1.9.0.1
+# Created by extended_clip
+
+
+boolean:
+  'true': 'yes'
+  'false': 'no'
+date_format: MM/dd/yy HH:mm:ss
+hooks:
+  minecraft_statistics: true
+  inventory_item_check: true
+  javascript_placeholders: true
+  acidisland: true
+  askyblock: true
+  autorank: true
+  autosell: true
+  bungeecord: true
+  redisbungee: true
+  battlelevels: true
+  chatcolor: true
+  chatreaction: true
+  checknamehistory: true
+  deluxetags: true
+  enjinminecraftplugin: true
+  essentials: true
+  ezblocks: true
+  ezprestige: true
+  ezrankslite: true
+  ezrankspro: true
+  factions_mcore: true
+  factions_uuid: true
+  galistener: true
+  gangsplus: true
+  heroes: true
+  islandworld: true
+  jobs: true
+  killstats: true
+  lwc: true
+  marriagemaster: true
+  mcinfected: true
+  mcinfected-ranks: true
+  mcmmo: true
+  minecrates: true
+  mvdw_placeholders: true
+  nicky: true
+  nicknamer: true
+  ontime: true
+  playerpoints: true
+  plotsquared: true
+  prisongangs: true
+  pvpstats: true
+  quicksell: true
+  royalcommands: true
+  simpleclans: true
+  simplecoinsapi: true
+  simpleprefix: true
+  simple_suffix: true
+  skillapi: true
+  skywarsreloaded: true
+  sqlperms: true
+  sqltokens: true
+  tokenenchant: true
+  towny: true
+  uskyblock: true
+  ultimatevotes: true
+  vault_perms: true
+  vault_eco: true
+  voteparty: true
+  voteroulette: true
+  wickedskywars: true
+bungeecord:
+  check_interval: 60

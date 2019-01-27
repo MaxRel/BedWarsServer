@@ -1,0 +1,34 @@
+users:
+  cb10d589-2b84-36a1-91bf-2f69415730c2:
+    lastname: HY90406QS
+    group: Builder
+    subgroups: []
+    permissions:
+    - bw.vip
+  ElgarL:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  fe8eb0e2-b815-336c-9614-71320b47ee9c:
+    lastname: dalao_233
+    group: Builder
+    subgroups: []
+    permissions:
+    - bw.vip
+    - bw.vip.*
+    - scavenger.exp
+    - scavenger.level
+    info:
+      prefix: §3[§c§lVIP§3]§f
+      suffix: '&c起床VIP'
+  KHobbits:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: Builder
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms

@@ -1,0 +1,116 @@
+StorageMode: 1
+
+MySQL:
+  host: localhost
+  port: 3306
+  database: test
+  user: root
+  password: dxh123456
+  table: test
+Message: 
+  Prefix: "§c天赋 §5>> "
+  NoPermisson: "§c未知指令或你无权使用"
+  ArmorBreak: "§e穿甲锋刃"
+  DamageBounce: "§9反戈一击"
+  DamageHealth: "§a吸血光环"
+  DamageIncrease: "§9残暴劈砍"
+  DamageLighting: "§e雷霆法令"
+  DamageReduction: "§e顽石抗性"
+  DiedLife: "§9起死回生"
+  FireDamage: "§e烈火焚烧"
+Permisson: 
+  Admin: "Talent.Admin"
+  Default: "Talent.Default"
+Item: 
+  ArmorIncrease: 
+    Name: "伤害减免"
+    MaxLevel: 5
+    LevelOdds: 0.1
+    Lore: 
+     - '§7受到攻击时会减免伤害'
+     - ''
+     - '§7稀有度: §a普通'
+     - '§7当前等级减免量: §e%Aicb%'
+     - '§7下一等级减免量: §e%Aicb2%'
+     - '§7当前天赋等级: §e%Aicb3%'
+     - ''
+     - '§7售价: §625'
+  DamageBounce: 
+    Name: "反戈一击"
+    MaxLevel: 4
+    LevelOdds: 0.1
+    LevelHealth: 0.5
+    Lore: 
+     - '§7§7受到攻击有几率反弹伤害'
+     - ''
+     - '§7稀有度: §9罕见'
+     - '§7当前等级触发几率: §e%Dbub%'
+     - '§7下一等级触发几率: §e%Dbub2%'
+     - '§7当前等级反弹伤害: §e%Dbub4%'
+     - '§7下一等级反弹伤害: §e%Dbub5%'
+     - '§7当前天赋等级: §e%Dbub3%'
+     - ''
+     - '§7售价: §650'
+  DamageHealth: 
+    Name: "吸血光环"
+    MaxLevel: 5
+    LevelOdds: 0.1
+    LevelPercentage: 0.1
+    Lore: 
+     - '§7攻击时有几率恢复生命'
+     - ''
+     - '§7稀有度: §a普通'
+     - '§7当前等级触发几率: §e%Dhab%'
+     - '§7下一等级触发几率: §e%Dhab2%'
+     - '§7当前等级吸血量: §e%Dhab4%'
+     - '§7下一等级吸血量: §e%Dhab5%'
+     - '§7当前天赋等级: §e%Dhab3%'
+     - ''
+     - '§7售价: §625'
+  DamageIncrease: 
+    Name: "残暴劈斩"
+    MaxLevel: 4
+    LevelOdds: 0.1
+    LevelIncrease: 0.1
+    Lore: 
+     - '§7攻击有几率造成更多伤害'
+     - ''
+     - '§7稀有度: §9罕见'
+     - '§7当前等级触发几率: §e%Dicb%'
+     - '§7下一等级触发几率: §e%Dicb2%'
+     - '§7当前等级提升量: §e%Dicb4%'
+     - '§7下一等级提升量: §e%Dicb5%'
+     - '§7当前天赋等级: §e%Dicb3%'
+     - ''
+     - '§7售价: §650'
+  DamageReduction: 
+    Name: "顽石抗性"
+    MaxLevel: 3
+    LevelOdds: 0.1
+    LevelIncrease: 0.1
+    Lore: 
+     - '§7有几率免疫一定伤害获得金心'
+     - ''
+     - '§7稀有度: §6传说'
+     - '§7当前等级触发几率: §e%Drdb%'
+     - '§7下一等级触发几率: §e%Drdb2%'
+     - '§7当前天赋等级: §e%Drdb3%'
+     - ''
+     - '§7售价: §6100'
+  DiedLife: 
+    Name: "起死回生"
+    MaxLevel: 4
+    LevelOdds: 0.1
+    LevelHealth: 40
+    Lore: 
+     - '§7即将死亡时获得护盾和生命'
+     - ''
+     - '§7稀有度: §9罕见'
+     - '§7当前等级触发几率: §e%Dlfb%'
+     - '§7下一等级触发几率: §e%Dlfb2%'
+     - '§7当前等级恢复量: §e%Dlfb4%'
+     - '§7下一等级恢复量: §e%Dlfb5%'
+     - '§7当前天赋等级: §e%Dlfb3%'
+     - ''
+     - '§7售价: §650'
+JoinItem: true

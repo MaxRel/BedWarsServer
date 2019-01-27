@@ -1,0 +1,53 @@
+DisplayName: '&b会员购买'
+signs:
+  text: '[Menu]'
+  NeedPermissionToCreateSign: true
+shop:
+  VIP:
+    RewardType: Command
+    PriceType: points
+    Price: 8888
+    Reward:
+    - manuaddp %player% bw.vip.*
+    - manuaddp %player% bw.vip
+    - manuaddv %player% prefix &3[&C&LVIP&3]&f
+    MenuItem:
+    - id:322
+    - amount:1
+    - name:&e点击购买&c&lVIP
+    - lore:&c需要8888点券#&6增加VIP商店#&6强制开始游戏特权#&6称号改变为 &3[&C&LVIP&3]&f%player%
+    Message: '&e成功购买VIP'
+    InventoryLocation: 5
+    ExtraPermission: ''
+  TF:
+    RewardType: Command
+    PriceType: points
+    Price: 10000
+    Reward:
+    - gokistats points add %player% 200
+    MenuItem:
+    - id:386
+    - amount:1
+    - name:&c200天赋点
+    - lore:&6需要10000点券
+    Message: '&e成功购买200天赋点'
+    InventoryLocation: 1
+    ExtraPermission: ''
+  HUB:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - stp XXXXX
+    MenuItem:
+    - id:166
+    - amount:1
+    - name:&6返回登录服
+    InventoryLocation: 9
+    ExtraPermission: ''
+# 配置文件版本,重要,请勿修改
+# 插件升级配置的时候需要用到
+EnterMessage: ''
+LeaveMessage: ''
+# 配置文件版本,重要,请勿修改
+# 插件升级配置的时候需要用到
+version: '1.0'

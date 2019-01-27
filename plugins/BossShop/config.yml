@@ -1,0 +1,143 @@
+# 启用贴牌创建BossShop商店入口
+EnableSigns: true
+# 用于日志输出前缀,基本不用
+LogPrefix: '[BossShop]'
+# 前台聊天以及后台大部分输出的前缀
+MsgPrefix: '&c[&7菜单&c]&b'
+# BossShop主商店
+MainShop: sc
+OpenMainShop:
+  # 打开BossShop主商店的物品
+  BindItem: 347
+  # 使用物品打开商店时是否需要潜行
+  SneakNeed: true
+# 命令打开商店的延迟
+# 用来兼容例如时钟命令等插件
+OpenShopDelay: 0
+# 隐藏玩家没有权限购买的物品
+HideItemsPlayersDoNotHavePermissionsFor: false
+# 启用交易记录
+EnableTransactionLog: false
+# 允许不安全的附魔
+AllowUnsafeEnchantments: false
+MultiplierGroups:
+  Enabled: false
+  List:
+  - Permission.Node:<type>:<multiplier>
+  - BossShop.PriceMultiplier.Points1:points:0.75
+  - BossShop.PriceMultiplier.Points1:points:0.5
+  - BossShop.PriceMultiplier.Money1:money:0.75
+  - BossShop.PriceMultiplier.Money2:money:0.5
+  - BossShop.PriceMultiplier.MoneyNegative:money:2.0
+  - BossShop.PriceMultiplier.Exp:exp:0.8
+SaleSystem:
+  # 寄售系统主配置
+  ShopBaseName: SYSTEM_SALE
+  # 寄售商店大小
+  # 必须为9的整数,不超过81,而且商店最后两格需要留空用来制作导航按钮
+  # 一旦设置过大小并创建了寄售商店后,就不要改这个值了,除非同时修改商店文件,不然导航功能会失效
+  ShopSize: 54
+  # 寄售商店最大数量
+  ShopMaxNumb: 2
+  # 金币收入手续费,百分比0-99
+  MoneyPoundage: 5
+  # 点券收入手续费,百分比0-99
+  PointsPoundage: 5
+  # 金币寄售默认显示的物品,只支持数值,不支持12:3的类型
+  MoneyItem: 9
+  # 点券寄售默认显示的物品,只支持数值,不支持12:3的类型
+  PointsItem: 10
+  # 默认寄售时长(秒),这里是一天
+  SaleTime: 86400
+  # 下架需要花费的金币数量,默认没有下架权限
+  # 权限BossShop.unsale.user: 下架自己物品的权限
+  # 权限BossShop.unsale.admin: 下架所有人物品的权限,并且不要支付下架花费
+  UnsaleCost: 1000
+  # 每天的下架数量限制,拥有BossShop.unsale.admin的使人可以无视该权限
+  # 下架记录保存在buyRecord.yml文件中
+  UnsaleCount: 3
+  # 个人允许最多同时寄售物品数量的上限,如果玩家有BossShop.sale.unlimited权限可以无限寄售
+  PerOneSaleLimit: 3
+  # 设置寄售物品的显示格式
+  # 如果一行中有空格的话需要用单引号把整句括起来
+  # 可用的变量,SaleItemLore中也可以使用这些变量
+  # %bs_sale_owner_name%        寄售者的名字
+  # %bs_sale_item_id%           寄售物品的编号
+  # %bs_sale_item_sigle_count%  寄售物品单份数量
+  # %bs_sale_item_part_count%   寄售物品份数
+  # %bs_sale_item_type%         寄售物品类型,[金币,点券,物品],如果要修改这几个请转到语言列表的Word节点
+  # %bs_sale_item_name%         寄售物品名字,[金币,点券,物品英文名],前两项同上,,最后一项为物品翻译名字
+  # %bs_sale_price%             寄售物品价格,这个只显示数字
+  # %bs_sale_price_type%        寄售物品类型,[金币,点券],要修改同上上
+  SaleItemName: '&2寄售: %bs_sale_item_sigle_count% %bs_sale_item_name%'
+  # 设置寄售物品的lore格式,时间限制和数量限制为默认lore,如果需要修改请转到语言文件
+  # lore最好加上颜色,不然默认是斜体紫色,丑!
+  # lore默认显示在物品属性下面,过期信息,数量限制等信息的上面
+  SaleItemLore:
+  - '&3寄售者: %bs_sale_owner_name%'
+  - '&2寄售编号: %bs_sale_item_id%'
+  - '&c价格: %bs_sale_price% %bs_sale_price_type%'
+  # 禁止寄售的物品
+  # 可以为 `WATCH@0`  或者  `347@0`
+  # 如果没有填写@后面的部分,那么该id物品下所有子id都不能寄售
+  SaleItemBlackList:
+  - WATCH
+MailSystem:
+  # 邮箱大小,超过此大小的物品将不会保存
+  MaxSize: 10
+  # 发送邮件的花费(金币)
+  SendCost: 1000
+LotterySystem:
+  # 基础Ticks,多少Ticks快速刷新一次背包
+  ReflashBaseTicks: 5
+  # 预览抽奖时,过了多少倍ReflashBaseTicks后刷新一次背包
+  ReflashLowMultiple: 4
+  # 进行抽奖时,刷新背包多少次
+  RefalshFastCount: 20
+  # 抽奖以及未抽奖时,物品显示比例,最高50,交替显示(50的话就只有两个显示样子了)
+  ShowPrecent: 34
+# 隐藏寄售物品的攻击效果等属性
+#  1|0.HIDE_ENCHANTS           附魔
+#  2|1.HIDE_ATTRIBUTES         前缀
+#  4|2.HIDE_UNBREAKABLE        不可破坏
+#   8|3.HIDE_DESTROYS,          受损度
+# 16|4.HIDE_PLACED_ON,         放置
+# 32|5.HIDE_POTION_EFFECTS     药水效果
+# 如何隐藏物品的状态??如果想隐藏相应的属性,只要把前面的数字加起来就可以了,如果要全部隐藏,就是63(默认)
+# 注意此项设置只在1.8.3及其以后的版本有效,低版本的只有设置0和非零来开启全部或关闭全部显示,不能选择关闭什么
+# 更低版本的可能不支持关闭
+# 上面的表也可能存在错误就是前面的数字对应的不是这个属性的隐藏
+HideItemFlag: 63
+# 可选[PlayerPoints,PointsAPI,EnjinMinecraftPlugin,CommandPoints]
+# 如果是[auto-detect],将会自动选择
+PointsPlugin: auto-detect
+# 玩家点击商品的间隔(毫秒),无论是否购买成功,都会重复点击会重新计时
+CoolTime: 0
+# 是否开启调试模式
+# 如果开启调试模式,插件报错的时候会输出完整的堆栈错误
+# 还可能会输出一些个人设置的调试信息
+debug: false
+# 配置文件版本,重要,请勿修改
+# 插件升级配置的时候需要用到
+version: '1.6'
+AutoClear:
+  # NBT过期天数,超过该天数未被引用而且是自动创建的NBT会被清理
+  NBTExpiredDays: 7
+# 物品名字翻译语言,用于寄售物品和邮件 时候使用
+# 如果翻译不存在,会在线下载
+ItemNameLang: zh_CN
+# 资源下载链接
+# 除非你知道如何修改,否则请勿修改
+DownloadLink:
+  # 各版本Json下载链接
+  # 官方:https://s3.amazonaws.com/Minecraft.Download/versions/%version%/%version%.json
+  # 国内:http://bmclapi2.bangbang93.com/version/%version%/json
+  Versions: http://bmclapi2.bangbang93.com/version/%version%/json
+  # 对应版本的asset文件索引
+  # 官方:https://launchermeta.mojang.com
+  # 国内:http://bmclapi2.bangbang93.com/
+  AssetIndex: http://bmclapi2.bangbang93.com/
+  # lang语言文件下载链接
+  # 官方:http://resources.download.minecraft.net/
+  # 国内:http://bmclapi2.bangbang93.com/assets/
+  Lang: http://bmclapi2.bangbang93.com/assets/

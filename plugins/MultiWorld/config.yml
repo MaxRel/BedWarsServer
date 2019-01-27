@@ -1,0 +1,130 @@
+# # options.debug: must the debug output be printed?
+# # options.difficulty: what is the server diffeculty?
+# # options.locale: what set of lang files must be used, supported: en_US, nl_NL, de_DE, it_IT
+# # spawnGroup: used to set withs worlds have what spawn, difficult to use. see official site for details
+options:
+  debug: false
+  difficulty: NORMAL
+  usecreativemode: false
+  usecreativemodeinv: true
+  blockEnderChestInCrea: false
+  useEndPortalHandler: false
+  useportalhandler: false
+  useWorldSpawnHandler: false
+  useWorldChatSeperator: false
+  craftbukkitHooks: true
+worlds:
+  bw:
+    seed: -596091325794912307
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw1:
+    seed: 2834409809437321271
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw10:
+    seed: -8817886725949214578
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw11:
+    seed: -357851926636567588
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw12:
+    seed: 4108022773424416018
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw13:
+    seed: 3974750382941498285
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw14:
+    seed: -1088301789043344349
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw2:
+    seed: 7501388700010782360
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw3:
+    seed: -4127113909174430537
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw4:
+    seed: -4331712482364541037
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw5:
+    seed: -3059290432574537682
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw6:
+    seed: 5642656950554264220
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw7:
+    seed: 1375207436515763233
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw8:
+    seed: -7951601815295742990
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw9:
+    seed: 1081511836890943093
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  world:
+    seed: 5645193992120372110
+    worldgen: Normal
+    options: ''
+    difficulty: EASY
+    autoload: true
+  "\u5409\u4ed6":
+    seed: 5595687186879458945
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  "\u8611\u83c7\u5c9b":
+    seed: 7693367825540215529
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  "\u8fdc\u6d0b\u6218\u8239":
+    seed: 5089636581084118273
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true

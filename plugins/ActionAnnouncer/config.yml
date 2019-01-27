@@ -1,0 +1,17 @@
+# ActionAnnouncer v1.7 Main configuration
+deluxechat_placeholders: true
+announcer_enabled: true
+announcer_random: true
+announce_interval: 10
+announcement_length: 5
+announcements:
+- "&e[&c\u516c\u544a&e] &a&l\u5982\u679c\u60a8\u9700\u8981\u66f4\u5f3a\u5927\u7684\
+  \u529f\u80fd\uff0c\u8bf7\u60a8\u8d2d\u4e70VIP\u5427~"
+- "&e[&c\u516c\u544a&e] &a&l\u544a\u8bc9\u4f60\u4e00\u4e2a\u5c0f\u79d8\u5bc6,\u80dc\
+  \u5229\u6bc1\u5e8a\u90fd\u53ef\u4ee5\u83b7\u5f97\u5929\u8d4b\u70b9!"
+- "&e[&c\u516c\u544a&e] &a&l\u4f60\u7684\u5e8a\u771f\u5728\u88ab\u4eba\u5165\u4fb5\
+  !"
+- "&e[&c\u516c\u544a&e] &a&l\u51b2\u5411\u91d1\u70b9,\u641e\u6b7b\u4ed6\u4eec!"
+announce_on_join: false
+join_announcement: '&e'
+disable_sounds: false

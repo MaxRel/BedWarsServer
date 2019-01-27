@@ -1,0 +1,8 @@
+useShortHelp: true
+customHelp:
+    - "&c&l>> &c右键牌子和朋友一起游戏吧!"
+customHelpSpecific:
+  survival:
+    - "&c&l>> &c右键牌子和朋友一起游戏吧!"
+  guns:
+    - "&c&l>> &c右键牌子和朋友一起游戏吧!"

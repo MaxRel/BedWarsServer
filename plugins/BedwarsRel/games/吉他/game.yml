@@ -1,0 +1,395 @@
+name: "\u5409\u4ed6"
+world: "\u5409\u4ed6"
+loc1:
+  world: "\u5409\u4ed6"
+  x: 104.05272063860224
+  y: 183.71653440691654
+  z: -106.86145470242266
+  pitch: 28.685091018676758
+  yaw: 51.158172607421875
+loc2:
+  world: "\u5409\u4ed6"
+  x: -131.47935567754377
+  y: 27.779385429152832
+  z: 135.03080628251496
+  pitch: 32.99148941040039
+  yaw: 222.38897705078125
+lobby:
+  world: world
+  x: 184.44152977550493
+  y: 27.0
+  z: 841.3874297758038
+  pitch: 3.1499645709991455
+  yaw: 90.1512451171875
+minplayers: 16
+record: 143
+record-holders:
+- 5201314luokuan
+- mc_shi_ran_521
+- OMT_B
+- dashuaibi9999
+- xulele
+- MC_YouHun_QAQ
+- kill
+- momxiaohei
+- chenshaolan
+regionname: "\u5409\u4ed6"
+time: 6000
+targetmaterial: BED_BLOCK
+mainlobby:
+  world: world
+  x: -1.5752311126542045
+  y: 122.0
+  z: -0.560923623803302
+  pitch: 2.179733991622925
+  yaw: 180.05067443847656
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: "\u5409\u4ed6"
+    x: -1.8129053495264322
+    y: 112.0
+    z: -0.2779113029156806
+    pitch: 58.829917907714844
+    yaw: 87.86532592773438
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: "\u5409\u4ed6"
+    x: -1.6335642087685294
+    y: 112.0
+    z: 0.34422504313763863
+    pitch: 66.8275146484375
+    yaw: 95.04263305664062
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: "\u5409\u4ed6"
+    x: -1.5062366591739158
+    y: 99.0
+    z: 7.203236583390203
+    pitch: 70.10858917236328
+    yaw: 182.60614013671875
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: "\u5409\u4ed6"
+    x: -11.699999988079067
+    y: 99.0
+    z: -0.6690508670602461
+    pitch: 21.712881088256836
+    yaw: 87.86544799804688
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: "\u5409\u4ed6"
+    x: 8.699999988079067
+    y: 99.0
+    z: -0.45733571069224954
+    pitch: 30.530738830566406
+    yaw: 275.8146057128906
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: "\u5409\u4ed6"
+    x: -2.626351232104945
+    y: 92.0
+    z: 1.7060040782646753
+    pitch: 29.710485458374023
+    yaw: -10.048084259033203
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: "\u5409\u4ed6"
+    x: -1.5335859611895142
+    y: 80.0
+    z: 0.41803433630045517
+    pitch: 44.72869110107422
+    yaw: -86.12775421142578
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: "\u5409\u4ed6"
+    x: -1.587835061261763
+    y: 76.0
+    z: -4.699999988079073
+    pitch: 42.883094787597656
+    yaw: -169.99993896484375
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: "\u5409\u4ed6"
+    x: -11.696519801337512
+    y: 80.0
+    z: -0.4211877662865968
+    pitch: 69.28831481933594
+    yaw: -94.01702880859375
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: "\u5409\u4ed6"
+    x: -1.3000000119209363
+    y: 80.0
+    z: -4.699999988079075
+    pitch: 82.00242614746094
+    yaw: -51.56829833984375
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: "\u5409\u4ed6"
+    x: 8.853717157218071
+    y: 80.0
+    z: -0.4289183060367434
+    pitch: 49.80699920654297
+    yaw: -87.45486450195312
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: "\u5409\u4ed6"
+    x: -1.491213596986666
+    y: 80.0
+    z: 64.69999998807907
+    pitch: 17.611522674560547
+    yaw: -186.70684814453125
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: "\u5409\u4ed6"
+    x: -1.4102040948358336
+    y: 80.0
+    z: 60.552747638659866
+    pitch: -1.0495693683624268
+    yaw: -179.52972412109375
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: "\u5409\u4ed6"
+    x: -1.503512470064954
+    y: 77.0
+    z: 59.300000011920915
+    pitch: 53.70320129394531
+    yaw: -181.0734100341797
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: "\u5409\u4ed6"
+    x: -1.5039189519129792
+    y: 80.0
+    z: 56.6433859409334
+    pitch: 61.08559036254883
+    yaw: -185.68170166015625
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: "\u5409\u4ed6"
+    x: 53.506908358801226
+    y: 80.0
+    z: 1.3491740549801667
+    pitch: 56.36906433105469
+    yaw: -112.88327026367188
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: "\u5409\u4ed6"
+    x: 56.50592512148287
+    y: 80.0
+    z: 1.5941833677561834
+    pitch: 69.69841003417969
+    yaw: -84.99420166015625
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: "\u5409\u4ed6"
+    x: 61.699999988079064
+    y: 80.0
+    z: 1.5998359059714464
+    pitch: 50.62722396850586
+    yaw: -76.58645629882812
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: "\u5409\u4ed6"
+    x: 56.300000011920936
+    y: 77.0
+    z: 1.444841252817433
+    pitch: 59.65019989013672
+    yaw: -270.89300537109375
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: "\u5409\u4ed6"
+    x: -1.4047579261438994
+    y: 80.0
+    z: -61.699999988079114
+    pitch: 43.86008071899414
+    yaw: -356.20123291015625
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: "\u5409\u4ed6"
+    x: -1.4109750565416
+    y: 80.0
+    z: -53.7869429476798
+    pitch: -0.4342930018901825
+    yaw: -0.507659912109375
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: "\u5409\u4ed6"
+    x: -1.3165949939614805
+    y: 80.0
+    z: -56.31545868145563
+    pitch: 61.49580001831055
+    yaw: -8.81836986541748
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: "\u5409\u4ed6"
+    x: -1.3000000119209387
+    y: 77.0
+    z: -56.300000011920886
+    pitch: 50.62728500366211
+    yaw: 1.845085859298706
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: "\u5409\u4ed6"
+    x: -56.50737185456563
+    y: 80.0
+    z: 1.5778191217450939
+    pitch: 50.21710968017578
+    yaw: -75.46504211425781
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: "\u5409\u4ed6"
+    x: -59.66212226704644
+    y: 80.0
+    z: 1.5392436466912878
+    pitch: 62.93128967285156
+    yaw: -9.228556632995605
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: "\u5409\u4ed6"
+    x: -64.69999998807906
+    y: 80.0
+    z: 1.6631205259379631
+    pitch: 70.92889404296875
+    yaw: 109.91507720947266
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: "\u5409\u4ed6"
+    x: -59.30000001192094
+    y: 77.0
+    z: 1.3252272503450113
+    pitch: 60.265411376953125
+    yaw: 273.2449951171875
+teams:
+  "\u8d77\u5e8a\u7ea2\u961f":
+    ==: Team
+    bedfeed:
+      world: "\u5409\u4ed6"
+      x: -61.0
+      y: 71.0
+      z: 1.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: "\u5409\u4ed6"
+      x: -59.40189468972882
+      y: 80.0
+      z: 1.336229021353407
+      pitch: -2.2798776626586914
+      yaw: 270.2769775390625
+    color: RED
+    name: "\u8d77\u5e8a\u7ea2\u961f"
+    maxplayers: 16
+    bedhead:
+      world: "\u5409\u4ed6"
+      x: -60.0
+      y: 71.0
+      z: 1.0
+      pitch: 0.0
+      yaw: 0.0
+  "\u8d77\u5e8a\u7eff\u961f":
+    ==: Team
+    bedfeed:
+      world: "\u5409\u4ed6"
+      x: 57.0
+      y: 71.0
+      z: 1.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: "\u5409\u4ed6"
+      x: 56.62255471997966
+      y: 80.0
+      z: 1.504183119490775
+      pitch: 5.102449893951416
+      yaw: -270.1693115234375
+    color: GREEN
+    name: "\u8d77\u5e8a\u7eff\u961f"
+    maxplayers: 16
+    bedhead:
+      world: "\u5409\u4ed6"
+      x: 56.0
+      y: 71.0
+      z: 1.0
+      pitch: 0.0
+      yaw: 0.0
+  "\u8d77\u5e8a\u84dd\u961f":
+    ==: Team
+    bedfeed:
+      world: "\u5409\u4ed6"
+      x: -2.0
+      y: 71.0
+      z: -58.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: "\u5409\u4ed6"
+      x: -1.4186864894740103
+      y: 80.0
+      z: -56.23878191698421
+      pitch: -0.4342930018901825
+      yaw: -0.507659912109375
+    color: BLUE
+    name: "\u8d77\u5e8a\u84dd\u961f"
+    maxplayers: 16
+    bedhead:
+      world: "\u5409\u4ed6"
+      x: -2.0
+      y: 71.0
+      z: -57.0
+      pitch: 0.0
+      yaw: 0.0
+  "\u8d77\u5e8a\u9ec4\u961f":
+    ==: Team
+    bedfeed:
+      world: "\u5409\u4ed6"
+      x: -2.0
+      y: 71.0
+      z: 60.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: "\u5409\u4ed6"
+      x: -1.4102040948358336
+      y: 80.0
+      z: 60.552747638659866
+      pitch: -1.0495693683624268
+      yaw: -179.52972412109375
+    color: YELLOW
+    name: "\u8d77\u5e8a\u9ec4\u961f"
+    maxplayers: 16
+    bedhead:
+      world: "\u5409\u4ed6"
+      x: -2.0
+      y: 71.0
+      z: 59.0
+      pitch: 0.0
+      yaw: 0.0
